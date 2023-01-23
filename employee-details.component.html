@@ -1,0 +1,17 @@
+<HTML>
+  <HEAD>
+  </HEAD>
+  <BODY>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" [(ngModel)]="employee.name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" [(ngModel)]="employee.email" name="email" required>
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" [(ngModel)]="employee.phone" name="phone" required>
+      <label for="position">Position:</label>
+      <input type="text" id="position" [(ngModel)]="employee.position" name="position" required>
+      <button type="submit">Save</button>
+    </form>
+  </BODY>
+</HTML>
