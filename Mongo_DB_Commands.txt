@@ -1,0 +1,15 @@
+List of Commands to start the server:
+mongod
+mongo
+
+Command to create and use DB:
+use employee_db
+
+Command to create a collection table:
+db.createCollection("employees")
+
+Command to enter a data:
+db.employees.insertOne({name:"John Smith", email:"john.smith@example.com", phone:"123-456-7890", position:"Developer"})
+
+Command to check the values added in the MongoDB:
+db.employees.find()
